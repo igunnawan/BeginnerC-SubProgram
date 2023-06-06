@@ -9,7 +9,7 @@ int main()
     printf("Masukkan nilai N : ");
     scanf("%d",&N);
 
-    /*printf("Jumlah Deret bilangannya adalah : %d",JumDeret_Function(N));*/
+    /*printf("Jumlah Deret bilangannya adalah : %d",JumPrima_Function(N));*/
 
     JumPrima_Procedure(jumlah,N);
 }
