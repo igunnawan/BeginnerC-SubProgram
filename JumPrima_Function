@@ -1,4 +1,4 @@
-int JumPrima(int x){
+int JumPrima_Function(int x){
 
     int jum;
     int count;
