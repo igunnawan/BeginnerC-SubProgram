@@ -5,9 +5,11 @@ int main()
 {
     int N;
     int jumlah;
+    jumlah = 0;
     printf("Masukkan nilai N : ");
     scanf("%d",&N);
 
-    printf("Jumlah Deret bilangannya adalah : %d",JumPrima_Function(N));
-    printf(JumPrima_Procedure(jumlah,N));
+    /*printf("Jumlah Deret bilangannya adalah : %d",JumDeret_Function(N));*/
+
+    JumPrima_Procedure(jumlah,N);
 }
